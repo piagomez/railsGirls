@@ -1,0 +1,17 @@
+<p>
+  <strong>Nombre:</strong>
+  <%= @idea.name %>
+</p>
+
+<p>
+  <strong>Descripción:</strong>
+  <%= @idea.description %>
+</p>
+
+<p>
+  <strong>Imágen:</strong>
+  <%= @idea.picture %>
+</p>
+
+<%= link_to 'Editar', edit_idea_path(@idea) %> |
+<%= link_to 'Volver', ideas_path %>
